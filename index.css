@@ -150,3 +150,106 @@ body {
 #about-us ul {
     margin-left: 20px;
 }
+#testimonials
+{
+margin: 100px 0;
+}
+.testimonials
+{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img
+{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*------------------facebook section----------------*/
+
+#facebook {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#facebook p {
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.social-icon img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*-----------footer section---------------*/
+
+#footer
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 350px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #a517ba, #5f1782) !important;
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background: linear-gradient(to right, #a517ba, #5f1782) !important;
+}
+
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
